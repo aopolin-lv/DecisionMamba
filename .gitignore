@@ -1,0 +1,8 @@
+checkpoints/
+wandb/
+data/
+experiment_logs/
+**wandb/
+**/__pycache__
+logs/
+runs/

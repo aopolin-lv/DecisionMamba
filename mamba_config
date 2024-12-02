@@ -1,0 +1,32 @@
+{
+  "_name_or_path": "state-spaces/mamba-130m",
+  "architectures": [
+    "MambaForCausalLM"
+  ],
+  "bos_token_id": 1,
+  "conv_kernel": 4,
+  "d_inner": 1536,
+  "d_model": 768,
+  "eos_token_id": 2,
+  "expand": 2,
+  "fused_add_norm": true,
+  "hidden_act": "silu",
+  "hidden_size": 768,
+  "initializer_range": 0.1,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "mamba",
+  "n_layer": 24,
+  "num_hidden_layers": 24,
+  "pad_vocab_size_multiple": 8,
+  "residual_in_fp32": true,
+  "rms_norm": true,
+  "ssm_cfg": {},
+  "state_size": 16,
+  "time_step_rank": 48,
+  "torch_dtype": "float32",
+  "transformers_version": "4.38.0.dev0",
+  "use_bias": false,
+  "use_cache": true,
+  "use_conv_bias": true,
+  "vocab_size": 50280
+}
