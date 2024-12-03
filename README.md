@@ -45,6 +45,13 @@ Remember to `source ~/.bashrc` to make the changes take effect.
 #### 2. Install D4RL
 Install D4RL by following the guidance in [D4RL](https://github.com/Farama-Foundation/D4RL).
 
+#### 3. Install transformers
+Install transformers with:
+```bash
+cd transformers
+pip install -e .
+```
+
 #### 3. Dataset
 To download original D4RL data, 
 ```bash
