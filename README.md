@@ -52,6 +52,8 @@ cd transformers
 pip install -e .
 ```
 
+We also provide the `requirements.txt` for checking whether the version of pacakges are correct.
+
 #### 3. Dataset
 To download original D4RL data, 
 ```bash

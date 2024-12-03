@@ -6,3 +6,4 @@ experiment_logs/
 **/__pycache__
 logs/
 runs/
+environment.yaml
