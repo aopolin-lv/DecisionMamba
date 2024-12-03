@@ -24,21 +24,7 @@ This work presents Decision Mamba (DM), a novel multi-grained state space model 
 Here we present the performance comparsion between DM and baseline models.
 
 
-| Dataset | BC | CQL<sup>&dagger;</sup> | DT | RvS<sup>&dagger;</sup> | StAR<sup>&dagger;</sup> | GDT<sup>&dagger;</sup> | WT<sup>&dagger;</sup> | EDT | LaMo | DM (Ours) |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| HalfCheetah-M | 42.2 | 44.4 | 42.6 | 41.6 | 42.9 | 42.9 | 43.0 | 42.5 | 43.1 | 43.8±0.23 |
-| Hopper-M | 55.6 | 86.6 | 70.4 | 60.2 | 65.8 | 77.1 | 63.1 | 63.5 | 74.1 | 98.5±8.19 |
-| Walker-M | 71.9 | 74.5 | 74.0 | 73.9 | 77.8 | 76.5 | 74.8 | 72.8 | 73.3 | 80.3±0.07 |
-| HalfCheetah-M-E | 41.8 | 62.4 | 87.3 | 92.2 | 93.7 | 93.2 | 93.2 | 48.5 | 92.2 | 93.5±0.11 |
-| Hopper-M-E | 86.4 | 110.0 | 106.5 | 101.7 | 110.9 | 111.1 | 110.9 | 110.4 | 109.9 | 111.9±1.84 |
-| Walker-M-E | 80.2 | 98.7 | 109.2 | 106.0 | 109.3 | 107.7 | 109.6 | 108.4 | 108.8 | 111.6±3.31 |
-| HalfCheetah-M-R | 2.2 | 46.2 | 37.4 | 38.0 | 39.9 | 40.5 | 39.7 | 37.8 | 39.5 | 40.8±0.43 |
-| Hopper-M-R | 23.0 | 48.6 | 82.7 | 82.2 | 81.6 | 85.3 | 88.9 | 89.0 | 82.5 | 89.1±4.32 |
-| Walker-M-R | 47.0 | 32.6 | 66.6 | 66.2 | 74.8 | 77.5 | 67.9 | 74.8 | 76.7 | 79.3±1.94 |
-| Avg. | 50.0 | 67.1 | 75.8 | 71.7 | 77.4 | 79.1 | 78.7 | 72.0 | 77.8 | 83.2±0.82 |
-
-<sup>&dagger;</sup> denotes the results are cited from the original paper.
-
+<img src='assets/main_result.png'>
 
 ## Usage 
 
