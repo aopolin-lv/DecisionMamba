@@ -21,7 +21,7 @@ This work presents Decision Mamba (DM), a novel multi-grained state space model 
 <img src='assets/visualization.png'>
 
 ## Performance
-Here we present the performance comparsion between DM<sup>2</sup> and baseline models.
+Here we present the performance comparsion between DM and baseline models.
 
 
 | Dataset | BC | CQL<sup>&dagger;</sup> | DT | RvS<sup>&dagger;</sup> | StAR<sup>&dagger;</sup> | GDT<sup>&dagger;</sup> | WT<sup>&dagger;</sup> | EDT | LaMo | DM (Ours) |
