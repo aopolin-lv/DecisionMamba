@@ -75,13 +75,13 @@ sh run.sh hopper medium 0 0.85
 **DM** is based on many open-source projects, including [Decision Transformer](https://github.com/kzl/decision-transformer), [Can Wikipedia Help Offline Reinforcement Learning](https://github.com/machelreid/can-wikipedia-help-offline-rl), [LaMo](https://github.com/srzer/LaMo-2023), [LoRA](https://github.com/microsoft/LoRA), [DeFog](https://github.com/hukz18/DeFog). We thank all these authors for their nicely open sourced code and their great contributions to the community.
 
 ## License
-**DM** is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
+DM is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
 
 ## Citation
 If you find this project useful, please consider citing:
 
 ```bibtex
-@inproceedings{lv2024DM,
+@inproceedings{lv2024dmn,
     title     = {Decision Mamba: A Multi-Grained State Space Model with Self-Evolution Regularization for Offline RL},
     author    = {Qi Lv and Xiang Deng and Gongwei Chen and Michael Yu Wang and Liqiang Nie},
     booktitle = {38th Annual Conference on Neural Information Processing Systems},
