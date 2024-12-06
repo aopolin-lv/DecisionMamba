@@ -1,6 +1,7 @@
 checkpoints/
 wandb/
-data/
+data/**/*.pkl
+data/*.tar*
 experiment_logs/
 **wandb/
 **/__pycache__
