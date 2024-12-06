@@ -35,6 +35,12 @@ First, you need to download the file from this [link](https://mujoco.org/downloa
 cd experiment-d4rl
 conda env create -f env.yml
 ```
+If you encounter errors brought by `mamba_ssm` and `causal_conv1d`, we suggest you downloading the source code and install manually.
+The versions are as follows:
+```
+mamba-ssm==1.2.0.post1
+causal-conv1d==1.2.0.post2
+```
 After that, add the following lines to your `~/.bashrc` file:
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/YOUR_PATH_TO_THIS/.mujoco/mujoco210/bin
@@ -46,13 +52,13 @@ Remember to `source ~/.bashrc` to make the changes take effect.
 Install D4RL by following the guidance in [D4RL](https://github.com/Farama-Foundation/D4RL).
 
 #### 3. Install transformers
-Install transformers with:
+Install `transformers` package with:
 ```bash
 cd transformers
 pip install -e .
 ```
 
-We also provide the `requirements.txt` for checking whether the versions of pacakges are correct.
+We also provide the `requirements.txt` and `environment.yaml` for installing or checking the packages.
 
 #### 3. Dataset
 To download original D4RL data, 
@@ -62,7 +68,7 @@ python download_d4rl_datasets.py
 ```
 
 ### Run
-```
+```bash
 sh run.sh hopper medium 0 0.85
 ```
 
