@@ -82,10 +82,16 @@ DM is licensed under the MIT license. See the [LICENSE](LICENSE) file for detail
 If you find this project useful, please consider citing:
 
 ```bibtex
-@inproceedings{lv2024dmn,
-    title     = {Decision Mamba: A Multi-Grained State Space Model with Self-Evolution Regularization for Offline RL},
-    author    = {Qi Lv and Xiang Deng and Gongwei Chen and Michael Yu Wang and Liqiang Nie},
-    booktitle = {38th Annual Conference on Neural Information Processing Systems},
-    year      = {2024}
+@inproceedings{NEURIPS2024_288b63aa,
+ author = {Lv, Qi and Deng, Xiang and Chen, Gongwei and Wang, Michael Yu and Nie, Liqiang},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {22827--22849},
+ publisher = {Curran Associates, Inc.},
+ title = {Decision Mamba: A Multi-Grained State Space Model with Self-Evolution Regularization for Offline RL},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/288b63aa98084366c4536ba0574a0f22-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
 }
+
 ```
